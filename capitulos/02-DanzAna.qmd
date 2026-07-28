@@ -2,15 +2,15 @@
 title: "DanzAna"
 ---
 
-:::{.derecha}
-```     
-A la ilustradora de mi imaginación,
-que sus trazos danzan por el lienzo
-como bailarina por los pisos del ballet.
+<!-- :::{.derecha} -->
+<!-- ```      -->
+<!-- A la ilustradora de mi imaginación, -->
+<!-- que sus trazos danzan por el lienzo -->
+<!-- como bailarina por los pisos del ballet. -->
 
--Sergio Sclovich-
-```     
-:::
+<!-- -Sergio Sclovich- -->
+<!-- ```      -->
+<!-- ::: -->
 
 
 :::{.centrado}

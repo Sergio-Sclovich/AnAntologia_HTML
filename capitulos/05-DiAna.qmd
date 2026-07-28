@@ -2,15 +2,15 @@
 title: "DiAna"
 ---
 
-:::{.derecha}
-```     
-A la escultora de libros,
-que en estos tiempos de 0 y 1
-su arte mantiene viva estas páginas.
+<!-- :::{.derecha} -->
+<!-- ```      -->
+<!-- A la escultora de libros, -->
+<!-- que en estos tiempos de 0 y 1 -->
+<!-- su arte mantiene viva estas páginas. -->
 
--Sergio Sclovich-
-```     
-:::
+<!-- -Sergio Sclovich- -->
+<!-- ```      -->
+<!-- ::: -->
 
 Juan Palindromemordnilap es un robot sencillo. Sus funciones son simples y claras: ser un albañil que construye y arregla todo tipo de estructura edilicia. Tiene una rutina ordenada; desconecta su cargador temprano en la mañana después de una noche de recarga, toma sus herramientas que deja previamente organizadas con prolijidad y recibe la orden de a dónde tiene que ir a construir o reparar algún edificio.
 

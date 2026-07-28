@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "AnAntologia"
+  #author: "Sergio Sclovich"
+  navbar:
+    logo: imagenes/Logo_espiral.png
+    left:
+      - href: index.qmd
+        text: Prefacio
+      - capitulos/01-AnaGramarg.qmd
+      - capitulos/02-DanzAna.qmd
+      - capitulos/03-JuAna.qmd
+      - capitulos/04-AnaCronica.qmd
+      - capitulos/05-DiAna.qmd
+
+
+format:
+  html:
+    toc: true
+    lang: es
+    css: Ebook.scss
+    number-sections: false
+    #theme: solar
+
+
+
+

@@ -33,6 +33,11 @@ En resumen indica:
 
 -- **No hay restricciones adicionales**: No puede aplicar términos legales ni medidas tecnológicas que restrinjan legalmente a otras a hacer cualquier uso permitido por la licencia.
 
+## Declaración de uso de Inteligencia Artificial
+
+La escritura de este libro así como su edición no fue realizada con Inteligencia Artificial (IA). Si 
+bien es publicado por primera vez en 2026, su escritura y edición se comenzaron mas de una década antes de su publicación. En aquel entonces, es tipo de herramientas no existían, como por ejemplo IA Generativas de acceso general. Sin embargo, las historias de este libro vislumbran un futuro distópico, donde la tecnología robotica, con inteligencia artificial avanzada, tiene un rol muy enraizado en aspectos humanos muy antiguos.
+
 ## Sobre el proyecto
 
 Inter.Tempo es una saga de historias interrelacionadas por una figura espiral. Este libro representa el centro de la espiral y el comienzo de esta aventura. Aventura no solo de los personajes sino del lector que los acompaña. Cada Cuento da origen a historias distintas, que a lo largo de expansión espiralada de toda la saga se irán conectando.

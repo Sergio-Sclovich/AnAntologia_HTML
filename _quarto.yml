@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  site-url: https://github.com/Sergio-Sclovich/AnAntologia_HTML.git
+  site-url: https://sergio-sclovich.github.io/AnAntologia_HTML/
   title: "AnAntologia"
   #author: "Sergio Sclovich"
   navbar:

@@ -1,3 +1,10 @@
+---
+format:
+  html:
+    theme:
+      - Ebook.scss
+---
+
 ::: derecha
 
 ```         

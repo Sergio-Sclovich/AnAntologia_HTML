@@ -26,10 +26,11 @@ format:
   html:
     toc: true
     lang: es
-    css: Ebook.scss
     number-sections: false
     #theme: solar
     citation-hover: true
+    theme: 
+      - Ebook.scss
 
 
 

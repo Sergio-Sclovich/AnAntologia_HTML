@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
 
+bibliography: referencias.bib
+csl: nature.csl
+
 website:
   site-url: https://sergio-sclovich.github.io/AnAntologia_HTML/
   title: "AnAntologia"
@@ -18,6 +21,7 @@ website:
       - capitulos/05-DiAna.qmd
 
 
+
 format:
   html:
     toc: true
@@ -25,6 +29,7 @@ format:
     css: Ebook.scss
     number-sections: false
     #theme: solar
+    citation-hover: true
 
 
 

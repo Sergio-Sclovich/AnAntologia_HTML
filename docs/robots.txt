@@ -1,1 +1,1 @@
-Sitemap: https://github.com/Sergio-Sclovich/AnAntologia_HTML.git/sitemap.xml
+Sitemap: https://sergio-sclovich.github.io/AnAntologia_HTML/sitemap.xml

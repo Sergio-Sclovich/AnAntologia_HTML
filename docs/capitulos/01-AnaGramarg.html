@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -23,7 +26,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -39,10 +62,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ece42c8223ec2bf36298a08f122c9a68.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d0cfe7a3482e0d49a74229a8f3b76718.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -175,7 +198,7 @@ sin su guía estos párrafos no existirían
 <p>─Tarde o temprano, alguien tiene que decir la verdad, aunque no seré yo. No es mi función.</p>
 <p>“Alguien tiene que decir la verdad” resuena el recuerdo.</p>
 <p>La ciudad donde Ana vive es una de las pocas que queda en el planeta Tierra. Tras varias pandemias y un hacinamiento insostenible, surgió el miedo a vivir en grandes urbes. Las elites de poder temieron que se generara una descentralización de las masas trabajadoras tan grande que llevara a perder el control sobre estas. Fue entonces que desplegaron varios planes para atraer aún más gente a las metrópolis y conservar a quienes ya estaban. Por un lado argumentaron que los mejores centros de salud se encontraban dentro de las ciudades y solo ahí se producían las vacunas que prevenían las enfermedades que acosaban al planeta. Por el otro, dificultaron la obtención de alimentos en las afueras, contaminando los suelos de cultivo con desechos tóxicos provenientes de distintas industrias. De esta manera, los grandes centros urbanos se transformaron en los principales productores de alimento, cultivando en huertas internas con luz artificial y criando animales en condiciones de total hacinamiento.</p>
-<p>A su vez se favoreció ampliamente la estrategia de construir en sentido vertical a fin de poder dar hogar a más habitantes por metro cuadrado. Esta táctica data de 1871 tras el gran incendio de Chicago, en el estado de Illinois, Estados Unidos. De ahí en más se construyeron torres más y más altas y esa lógica duró varios siglos. Hubo un punto donde el acceso a la luz del Sol se tornó un privilegio, y como tal, lo gozaban aquellos miembros de la sociedad con mayor poder. En consecuencia, las clases sociales vulneradas, literalmente fueron las más bajas y menos iluminadas por la luz natural.</p>
+<p>A su vez se favoreció ampliamente la estrategia de construir en sentido vertical a fin de poder dar hogar a más habitantes por metro cuadrado. Esta táctica data de 1871 tras el gran incendio de Chicago<span class="citation" data-cites="Chicagofire"><sup><a href="#ref-Chicagofire" role="doc-biblioref">1</a></sup></span>, en el estado de Illinois, Estados Unidos. De ahí en más se construyeron torres más y más altas y esa lógica duró varios siglos. Hubo un punto donde el acceso a la luz del Sol se tornó un privilegio, y como tal, lo gozaban aquellos miembros de la sociedad con mayor poder. En consecuencia, las clases sociales vulneradas, literalmente fueron las más bajas y menos iluminadas por la luz natural.</p>
 <p>Las enormes torre/ciudades fueron poco a poco convirtiéndose en pseudo-reinados que no tardaron en competir entre sí. Las más grandes asimilaban a las más pequeñas y entre las dominantes se atacaban entre sí con armas biológicas, químicas y de fuego. Fue así que sólo quedaron unas pocas torres/ciudades en el mundo, completamente aisladas. Entre ellas se extendían enormes territorios que no tardaron en desertificarse; ya que los bienes naturales habían sido arrasados y contaminados, lo que convirtió al planeta en un inmenso páramo.</p>
 <p>Cuando las grandes torres del reinado donde vivía Ana alcanzaron los 150 pisos, entre ellas se empezaron a construir puentes cerrados para pasar de una a la otra; de a poco se constituyó un sistema de traslado de calles y veredas aéreas que fue reemplazando a las del nivel del suelo. Cuanto más altos los edificios, más eficientes las plataformas de traslado. A partir de la número 45, todas las uniones entre edificios se convirtieron en transportadoras automáticas, similares a una escalera mecánica pero en sentido horizontal. Hacia comienzos del año 2300 se habían empezado a definir distritos en sentido vertical que marcaron fuertemente el estatus según el número de la cinta transportadora, y el nivel 45 marcó un antes y un después en la historia de aquella ciudad; así como un límite físico de clases.</p>
 <p>El momento en la historia de la ciudad de Ana en el que el nivel 45 se oficializó como frontera, fue descrito por los medios de comunicación reinantes como: “la rebelión de los pistoleros”. Esta había sido una brutal represión por parte de las fuerzas de seguridad contra un grupo de familias de bajos recursos económicos que intentaba ascender buscando mejores oportunidades de vida. Pero la falsa propaganda de “rebeldes peligrosos” fue la excusa perfecta para decretar la prohibición del ascenso por sobre el nivel 45 de todos aquellos residentes que vivían por debajo.</p>
@@ -200,14 +223,14 @@ sin su guía estos párrafos no existirían
 <p>Ana Sigue dictando:</p>
 <p>─La información documentada en los libros que leí, difiere notablemente de la publicada en las obras de los últimos siglos. El grado de diferencia fue aumentando exponencialmente con el paso del tiempo, como si un error hubiera llevado al siguiente en un fenómeno de efecto dominó. Es imperioso, en mi humilde opinión, que se revise profundamente todo lo editado durante los últimos ocho siglos, para contrastar con la información registrada desde los textos más antiguos del que se tenga conocimiento. Mi sospecha es que los escritos literarios se despojaron de su capacidad de inspirar a los Homo sapiens y se tornaron un mero mecanismo de complacencia.</p>
 <p>Recobrar las artes como fuente de inspiración, creatividad y canalización de las emociones humanas es indispensable para una sociedad pacífica y libre. Sin embargo, muchos de los mencionados errores parecen estar relacionados a importantes beneficios de unas pocas grandes corporaciones (Junto a esta carta se encuentra un registro detallado de dichas relaciones) ¿Puede ser entonces este cambio rotundo en las publicaciones, un fraude justificado por la ambición de unes poques aristócratas? Ante tales sospechas es necesario que las autoridades lleven a cabo una investigación a fin de terminar con esta posible injusticia. Confío en que ustedes comprenderán la gravedad del asunto y mi preocupación al respecto, haciendo caso omiso a las posibles violaciones por mi parte de las leyes imperantes. Asimismo, quedo a disposición para evacuar dudas y colaborar en el proceso de cambio en el momento en que lo crean pertinente. Sin otro particular, les saluda cordialmente. Ana Gramarg”─. Se detiene un segundo en silencio y ordena al sistema operativo: ─imprimir─.</p>
-<p>Hacia el año 2500 se había alcanzado el nivel 90 en las ciudades torre y aquellos que dominaban los pisos de la cima comenzaron a autoproclamarse superiores. Esta idea la terminaron de establecer, o más bien imponer, en el 2597 durante la Copa Mundial de Futgby, una combinación de fútbol y rugby a fin de unificar las principales pasiones deportivas en una única actividad con todos los beneficios de ambos deportes, incluyendo, especialmente, su capacidad de distraer masas.</p>
-<p>La forma en que la clase dominante impuso su superioridad fue definiéndose como una nueva especie: los <em>Homo ultrasapiens</em>. Se fundamentaron en el redescubrimiento de una sabiduría ancestral creada por Juan Bautista Lamarck que reveló que cuando un organismo desarrolla una característica ventajosa en forma voluntaria, ésta es transferida a su progenie. Tomaron por analogía a los árboles más altos de los antiguos bosques, de los que sólo quedaban registros imprecisos, de la siguiente manera: “tras varias generaciones de pasar la característica de ser más altos por querer alcanzar la luz del sol, absorben con mayor eficiencia la misma y sobreviven más que otros, siendo así mejores. De igual modo, los acaudalados de los pisos más altos de la jungla de metal y cemento, tras cientos de años de heredar su fortuna, evolucionaron”. Los que quedaron por debajo del nivel 45 seguían siendo, según lo definieron, <em>Homo sapiens</em>. Claro que nadie se cuestionó, o nunca surgió publicamente el cuestionamiento, que los bosques y selvas tenían plantas en varios niveles y todas sobrevivían, primero porque ya nadie sabía cómo era un bosque o una selva realmente y segundo porque a la aristocracia no le convenía.</p>
+<p>Hacia el año 2500 se había alcanzado el nivel 90 en las ciudades torre y aquellos que dominaban los pisos de la cima comenzaron a autoproclamarse superiores. Esta idea la terminaron de establecer, o más bien imponer, en el 2597 durante la Copa Mundial de Futgby, una combinación de fútbol y rugby a fin de unificar las principales pasiones deportivas en una única actividad con todos los beneficios de ambos deportes, incluyendo, especialmente, su capacidad de distraer masas<span class="citation" data-cites="pagina12futbol mundial78"><sup><a href="#ref-pagina12futbol" role="doc-biblioref">2</a>,<a href="#ref-mundial78" role="doc-biblioref">3</a></sup></span>.</p>
+<p>La forma en que la clase dominante impuso su superioridad fue definiéndose como una nueva especie: los <em>Homo ultrasapiens</em>. Se fundamentaron en el redescubrimiento de una sabiduría ancestral creada por Juan Bautista Lamarck que reveló que cuando un organismo desarrolla una característica ventajosa en forma voluntaria<span class="citation" data-cites="Lamark Lamarkism"><sup><a href="#ref-Lamark" role="doc-biblioref">4</a>,<a href="#ref-Lamarkism" role="doc-biblioref">5</a></sup></span>, ésta es transferida a su progenie. Tomaron por analogía a los árboles más altos de los antiguos bosques, de los que sólo quedaban registros imprecisos, de la siguiente manera: “tras varias generaciones de pasar la característica de ser más altos por querer alcanzar la luz del sol, absorben con mayor eficiencia la misma y sobreviven más que otros, siendo así mejores. De igual modo, los acaudalados de los pisos más altos de la jungla de metal y cemento, tras cientos de años de heredar su fortuna, evolucionaron”. Los que quedaron por debajo del nivel 45 seguían siendo, según lo definieron, <em>Homo sapiens</em>. Claro que nadie se cuestionó, o nunca surgió publicamente el cuestionamiento, que los bosques y selvas tenían plantas en varios niveles y todas sobrevivían, primero porque ya nadie sabía cómo era un bosque o una selva realmente y segundo porque a la aristocracia no le convenía.</p>
 <p>Con el pasar de los años la estructura poblacional de la sociedad comenzó a cambiar. La expectativa de vida de los <em>Homo ultrasapiens</em> fue en aumento, mientras que el número de nacimientos por año, fue en descenso. Esto les pareció de lo mejor. Eran menos entre los que se repartían todos los beneficios y los podían disfrutar por más tiempo. Mientras tanto, por debajo, la “producción” de nuevos <em>Homo sapiens</em> estaba completamente controlada. Para el año 2999 el uso de la culpa, la pornografía, las drogas o la violencia eran los ecualizadores de la población. Si empezaba a haber más humanos de abajo de lo necesario, se mandaban mensajes subliminales con tendencias suicidas o se organizaba un atentado disfrazado de catástrofe. Por el contrario, si empezaba a haber pocos, los mensajes inducían a la reproducción. Esto se implementaba por órdenes a robots que ejecutaban los comunicados; por ejemplo robots redactores, como era Ana.</p>
 <p>La existencia de los <em>H. sapiens</em> era fundamental para los <em>H. ultrasapiens</em>. Los primeros eran la mano de obra para la producción de alimentos, otros bienes y tratamiento de desechos de los segundos. Los habitantes de los niveles más altos podrían haber resuelto sus necesidades básicas a través de robots pero ¿Por qué mantener a los de abajo? se cuestiona Ana. La presencia de aquellos que vivían en los pisos inferiores al nivel 45 era esencial para dar sentido a la supremacía establecida. Si otro no era inferior ¿a quién iban a ser superiores sino? elucida la robot.</p>
 <p>Los datos sobre los que se basaban en la cima para planificar los comunicados que se mandaban por debajo del piso 45, fueran subliminares o supraliminares, se tomaban de toda clase de encuestas que para el 2999 ya eran todas obligatorias y se vivían como parte de la cotidianeidad de los <em>H. sapiens</em>. Además, los sistemas de vigilancia estaban ampliamente distribuidos. De esta manera los que dominaban los pisos superiores habían generado una red de canales complacientes que mantenían en un estado de felicidad aparente a todos aquellos por debajo. Esto permitió dos cosas: que los dominados no sintieran deseos de sublevarse y que produjeran según lo que los dominantes ordenaran.</p>
 <p>Ana reanuda la búsqueda de quiénes habían generado y aprobado la Ley de Fe Ciega en los Robots. Revisa las actas públicas del Congreso Mundial del Planeta Tierra y no encuentra nada. ¿Cómo es posible que, ante un evento tan trascendente como la promulgación de semejante ley, no hubiera ninguna evidencia de quién la había redactado, aprobado, discutido y sancionado? Decide volver al piso 0 pensando que tal vez ahí haya quedado algún registro en papel. Si bien había leído todo lo que estaba en la biblioteca, existía la posibilidad de que hubiera algún documento en otro edificio.</p>
 <p>Salir de su espacio físico de trabajo era una manera de conectarse con el presente para desactivar sus recuerdos por un rato. Habían pasado seis meses desde el encuentro con aquel extraño robot y todos los eventos que acontecieron desde entonces. Y los recuerdos eran recurrentes.</p>
-<p>Antes de salir, los termo-sensores de la puerta de su oficina envían los datos del clima y el control de temperatura de Ana se ajusta acorde a la información recibida. Primero se dirige a las oficinas gubernamentales en el piso 75 a dejar la carta, escrita a mano, a modo de impresión, gracias a la precisión de los mecanismos en sus manos y puesta en un sobre plegado por ella. El papel fue confeccionado por Ana a partir de cáscaras de banana, que había encargado que se las enviaran antes de ser ultra procesadas cuando decidió escribir su carta para el gobierno.</p>
+<p>Antes de salir, los termo-sensores de la puerta de su oficina envían los datos del clima y el control de temperatura de Ana se ajusta acorde a la información recibida. Primero se dirige a las oficinas gubernamentales en el piso 75 a dejar la carta, escrita a mano, a modo de impresión, gracias a la precisión de los mecanismos en sus manos y puesta en un sobre plegado por ella. El papel fue confeccionado por Ana a partir de hojas de ananá<span class="citation" data-cites="Chowdhury2025"><sup><a href="#ref-Chowdhury2025" role="doc-biblioref">6</a></sup></span>, que había encargado que se las enviaran antes de ser ultra procesadas cuando decidió escribir su carta para el gobierno.</p>
 <p>Luego de completar su misión, decide bajar de forma segura al piso 0 y va en busca del ascensor más antiguo que encuentra en sus registros; el del sector H24 a 20 minutos en transportador público. Se coloca en la parada e indica al sensor que está esperando al próximo aparato. Secretamente anhela encontrarse con el robot que la inquieta, pero estima que sería casi imposible.</p>
 <p>Los transportadores públicos eran unidades de traslado que funcionaban por levitación magnética, tecnología para ese entonces ya anticuada pero funcional para que principalmente los robots, viajen de un lado a otro. Conectaban la ciudad siguiendo una ruta definida, la recorrían en su brillante color amarillo y tenían la forma de una píldora oval gigante con capacidad para 20 individuos/unidades.</p>
 <p>Entre los <em>H. ultrasapiens</em> había jerarquías internas: quienes estaban en la cima se aseguraron de seguir en ese lugar pero también tuvieron que reconocer que no podían hacer todo, especialmente si no querían hacer nada más que disfrutar de sus riquezas. Por eso, catalogaron dentro de la nueva especie a personas altamente especializadas en diferentes áreas del conocimiento de su interés y tras generaciones de condicionamiento generaron un sistema para delimitar su estatus según el vehículo que manejaban y la vivienda que les otorgaban. Básicamente los vehículos eran construidos en fábricas por debajo del nivel 45 y no había necesidad de comprarlos sino que se asignaban según los logros de cada especialista, acorde a la importancia que se quería dar desde la cima. Lo mismo ocurría con los departamentos, a mayor jerarquía, más metros cuadrados y con más lujos. Como consecuencia, aquellos pocos <em>H. ultrasapiens</em> que viajaban en los transportes públicos, no tenían auto y en consonancia vivían en pequeños monoambientes. Ellos pertenecían a lo más bajo de la jerarquía de la nueva especie. Dado el condicionamiento infligido a través de la asignación de vehículos y vivienda, los pasajeros se sabían degradados por viajar en dichas unidades compartidas y lo hacían completamente deprimidos; en un contraste perfecto con el vívido amarillo de las grandes pildoras metálicas.</p>
@@ -234,10 +257,38 @@ sin su guía estos párrafos no existirían
 <p>Sorpresivamente ve salir a un nuevo robot de atrás de un paredón “¿será el que puso la bomba la primera vez?” se pregunta Ana y refuerza su hipótesis al ver que ataca a Juan. Desesperada, toma una estaca metálica tirada en el piso y la lanza con todas sus fuerzas. Pero al no ser una robot programada para lanzar objetos no pudo saber si logró algo con esa acción. Prefiere creer que sí. Se siente extasiada, sus circuitos siguen elevando la temperatura a niveles que no puede controlar. Su sistema de alarma se activa. La trae a la realidad, a la calle de aquel barrio, a su amado al final del camino y a un gran destello, acompañado de un estruendo ensordecedor que ocurre a su derecha. Una nueva explosión la sacude.</p>
 <p>Durante los instantes en que transcurre el estallido, un sinfín de pensamientos pasan por el procesador principal de Ana. Está feliz, vivir esa experiencia la hace única. Sigue extasiada, ser testigo del cambio de Juan en una forma completamente nueva le despierta cosas que su cerebro computarizado no puede explicar. Esta vez la explosión la alcanza con fuerza y las chances de recuperarse son casi nulas.</p>
 <p>Entre las llamas y los escombros, las partes de Ana se esparcen por la escena. Sólo su torso todavía se conecta con la cabeza. Con lo último de batería disponible proyecta en su campo visual los recuerdos de su amor: aquel momento donde lo chocó por primera vez y sintió lo que ahora definía como enojo, cuando la rescató y entendió que esos primeros registros extraños eran los principios de su condición de humana y que se agigantaron al ser rescatada por segunda vez. Finalmente, con la imagen última del brillo en los ojos aquel tosco rostro, Ana se apaga, feliz de haberse ido amando.</p>
+<div class="derecha">
+<pre><code>Al Sol de mi vida.
+Que me deslumbra cada mañana con su belleza,
+me abriga con el calor de su amor y
+me acompaña todo el día con el recuerdo de sus besos.
+
+-Sergio Sclovich-</code></pre>
+</div>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Chicagofire" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Wikipedia. <a href="https://es.wikipedia.org/w/index.php?title=Arquitectura_de_Chicago&amp;oldid=175829348">Arquitectura de Chicago — Wikipedia<span>,</span> La enciclopedia libre</a>. (2026).</div>
+</div>
+<div id="ref-pagina12futbol" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Duchini, A. <a href="https://www.pagina12.com.ar/103547-el-futbol-puesto-al-servicio-del-terror"><span>E</span>l fútbol puesto al servicio del terror</a>. (2018).</div>
+</div>
+<div id="ref-mundial78" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Montanari, E. <a href="https://academia-edu-documents.ada3b51d29be5ae5c31d26340608fd48.r2.cloudflarestorage.com/50306610/Tesi_Completa_fue_cuando_el_futbol_se_lo_comio_todo_final-libre.pdf?response-content-disposition=inline%3B%20filename%3DFue_cuando_el_futbol_se_lo_comio_todo_Po.pdf&amp;response-content-type=application%2Fpdf&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=62bb68dcc7da7de029ac4fdac624cee9%2F20261016%2Fauto%2Fs3%2Faws4_request&amp;X-Amz-Date=20261016T182820Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=da7828cb83c8b6141e20fde402d67273be5e3295151c4dfc86de9abcd35107cb"><span>Fue cuando el fútbol se lo comió todo</span></a>. (Università Ca’ Foscari Venezia, Venezia, 2016).</div>
+</div>
+<div id="ref-Lamark" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Burkhardt Jr, R. W. Lamarck, evolution, and the inheritance of acquired characters. <em>Genetics</em> <strong>194</strong>, 793-805 (2013).</div>
+</div>
+<div id="ref-Lamarkism" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline"><span class="nocase">britannica</span>. <a href="https://www.britannica.com/science/Lamarckism">Lamarckism</a>. (2025).</div>
+</div>
+<div id="ref-Chowdhury2025" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline">Chowdhury, Md. D. A. <em>et&nbsp;al.</em> <a href="https://doi.org/10.15376/biores.20.4.9390-9405">Pulp production from pineapple leaf waste for sustainable paper manufacturing</a>. <em>BioResources</em> <strong>20</strong>, 9390-9405 (2025).</div>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -311,7 +362,7 @@ sin su guía estos párrafos no existirían
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/github\.com\/Sergio-Sclovich\/AnAntologia_HTML\.git");
+        var filterRegex = new RegExp("https:\/\/sergio-sclovich\.github\.io\/AnAntologia_HTML\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
